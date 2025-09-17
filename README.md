@@ -1,3 +1,3 @@
 # RailOptimus
 
-## Maximizing Section Throughput Using Al-Powered Precise Train Traffic Control
+## AI powered decision support system for section controllers
