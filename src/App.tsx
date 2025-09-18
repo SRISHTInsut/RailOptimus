@@ -13,6 +13,7 @@ import Settings from "./pages/Settings";
 import AppLayout from "./components/layout/AppLayout";
 import ProtectedRoute from "./components/ProtectedRoute";
 import NotFound from "./pages/NotFound";
+import Map from "./pages/Map";
 
 const queryClient = new QueryClient();
 
@@ -46,6 +47,16 @@ const App = () => (
                     <h1 className="text-2xl font-bold mb-4">Simulation Page</h1>
                     <p className="text-muted-foreground">Coming soon...</p>
                   </div> */}
+                </AppLayout>
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/map"
+            element={
+              <ProtectedRoute>
+                <AppLayout>
+                  <Map />
                 </AppLayout>
               </ProtectedRoute>
             }
