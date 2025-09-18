@@ -5,7 +5,8 @@ import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { 
   LayoutDashboard, 
-  Settings, 
+  Settings,
+  MapPin, 
   FileText, 
   PlayCircle, 
   LogOut,
@@ -21,6 +22,7 @@ interface AppLayoutProps {
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
   { name: "Simulation", href: "/simulation", icon: PlayCircle },
+  { name: "Map", href: "/map", icon: MapPin },
   { name: "Reports", href: "/reports", icon: FileText },
   { name: "Settings", href: "/settings", icon: Settings },
 ];
